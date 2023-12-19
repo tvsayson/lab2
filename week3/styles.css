@@ -1,0 +1,26 @@
+body{
+		text-align: center;
+		background-color: skyblue;
+		font-family: Tahoma;
+		font-size: 20px;
+}
+div {  
+  border: 3px solid red;  
+  outline: 3px solid blue;  
+  border-radius: 12px;  
+  font-size: 20px;   
+  margin: 80px;  
+  padding: 10px;  
+  outline-offset: 0.5em;  
+}    
+h2 {
+    background-color: #33FF6E;
+    border: 2px solid black;
+    width: 386px;
+    padding: 20px;
+    margin: auto;
+    border-style: dotted;
+    border: 2px solid black;
+    padding: 2px;
+    position: relative;
+}
