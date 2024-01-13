@@ -14,3 +14,19 @@ document.getElementById("game").innerHTML = "These are the games I always play b
 /* Lesson 8 Dates */
 const dates = new Date();
 document.getElementById("date").innerHTML = dates;
+
+/* Lesson 9 */
+function today(){
+	const currentDate = new Date();
+
+	const dayofWeek = currentDate.getDay();
+
+	const daysofWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+
+	if (dayofWeek == 0 || dayofWeek == 6){
+		alert("Today is " + daysofWeek[dayofWeek] + ". It's the weekend! 🤭");
+	}
+	else{
+		alert("Today is " + daysofWeek[dayofWeek] + ". It's a weekday sad 😖");
+	}
+}
