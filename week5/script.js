@@ -10,3 +10,7 @@ document.getElementById("age").innerHTML = "<strong> Age: </strong>" + aged;
 /* Lesson 7 Arrays */
 const games = ["Valorant","League of Legends","Overwatch 2","Lethal Company"]
 document.getElementById("game").innerHTML = "These are the games I always play but you can still invite me on other games " + games
+
+/* Lesson 8 Dates */
+const dates = new Date();
+document.getElementById("date").innerHTML = dates;
