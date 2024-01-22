@@ -50,3 +50,16 @@ function myFunction(p1, p2) {
 
 let result = myFunction(14, 2);
 document.getElementById("birth").innerHTML = "<strong> Birthday: </strong> August " + result + " 2003";
+
+/* Lesson 22.10 */
+var x = document.getElementById("clicks");
+x.addEventListener("click", myFunction);
+x.addEventListener("click", someOtherFunction);
+
+function myFunction() {
+  alert ("Hi, apologies for my website! 🤩");
+}
+
+function someOtherFunction() {
+  alert ("It is still being developed thanks! 🤓");
+}
