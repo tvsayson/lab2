@@ -42,3 +42,11 @@ const person = {
   }
 };
 document.getElementById("name").innerHTML = "<strong> Full Name: </strong>" + person.fullName();
+
+/* Lesson 18.1 */
+function myFunction(p1, p2) {
+  return p1 * p2;
+}
+
+let result = myFunction(14, 2);
+document.getElementById("birth").innerHTML = "<strong> Birthday: </strong> August " + result + " 2003";
