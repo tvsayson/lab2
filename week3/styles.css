@@ -15,6 +15,7 @@ body{
 #Me{
 	border: 5px solid blue;
 }
+
 div {  
   border: 3px solid red;  
   outline: 3px solid blue;  
@@ -38,7 +39,7 @@ h1{
     padding: 2px;
     position: relative;
 }
-h2, h3 {
+h2, h3{
     background-color: #33FF6E;
     border: 2px solid black;
     width: 500px;

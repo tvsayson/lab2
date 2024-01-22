@@ -30,3 +30,15 @@ function today(){
 		alert("Today is " + daysofWeek[dayofWeek] + ". It's a weekday sad 😖");
 	}
 }
+
+/* Lesson 17 */
+const person = {
+  firstName: "Timothy Jay",
+  midName: "V.",
+  lastName: "Sayson",
+  fullName: function() {
+    return this.firstName + " " + this.midName + " " + this.lastName;
+
+  }
+};
+document.getElementById("name").innerHTML = "<strong> Full Name: </strong>" + person.fullName();
