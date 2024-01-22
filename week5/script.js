@@ -72,3 +72,8 @@ document.getElementById("clicks").style.fontSize = "larger";
 document.getElementById("clicks1").style.color = "blue";
 document.getElementById("clicks1").style.fontFamily = "Arial";
 document.getElementById("clicks1").style.fontSize = "larger";
+
+/* Lesson 23.3*/
+function newWin() {
+  window.location.assign("https://github.com/tvsayson")
+}
