@@ -63,3 +63,12 @@ function myFunction() {
 function someOtherFunction() {
   alert ("It is still being developed thanks! 🤓");
 }
+
+/* Lesson 22.7*/
+document.getElementById("clicks").style.color = "blue";
+document.getElementById("clicks").style.fontFamily = "Arial";
+document.getElementById("clicks").style.fontSize = "larger";
+
+document.getElementById("clicks1").style.color = "blue";
+document.getElementById("clicks1").style.fontFamily = "Arial";
+document.getElementById("clicks1").style.fontSize = "larger";
