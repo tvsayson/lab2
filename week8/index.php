@@ -96,9 +96,12 @@
           $x = 4;
   
         function myfunction() {
-        echo ", Sophie and Sue is " . $GLOBALS['x'] . " years old";
+        echo ", Sophie and Sue is " . $GLOBALS['x'] . " years old ";
           }
           myfunction();
+
+          $x = 5;
+          var_dump($x);
         ?>
         
       </p>

@@ -44,12 +44,12 @@ const person = {
 document.getElementById("name").innerHTML = "<strong> Full Name: </strong>" + person.fullName();
 
 /* Lesson 18.1 */
-function myFunction(p1, p2) {
+function myBirthday(p1, p2) {
   return p1 * p2;
 }
 
-let result = myFunction(2, 14);
-document.getElementById("birth").innerHTML = "<strong> Birthday: </strong> August " + result + " 2003";
+let bdate = myBirthday(14, 2);
+document.getElementById("birth").innerHTML = "<strong> Birthday: </strong> August " + bdate + " 2003";
 
 /* Lesson 22.10 */
 var x = document.getElementById("clicks");
