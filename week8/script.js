@@ -49,7 +49,7 @@ function myFunction(p1, p2) {
 }
 
 let result = myFunction(2, 14);
-document.getElementById("birth").innerHTML = "<strong> Birthday: </strong> August " + String(result) + " 2003";
+document.getElementById("birth").innerHTML = "<strong> Birthday: </strong> August " + result + " 2003";
 
 /* Lesson 22.10 */
 var x = document.getElementById("clicks");

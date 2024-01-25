@@ -87,7 +87,12 @@
         <?php
         $txt = "Sebastian, Sophie, and Sue";
         echo "Their names are  $txt!";
+        function myMessage() {
+        echo " Sebastian is the eldest which is 11 years old";
+          }
+          myMessage();
         ?>
+        
       </p>
 
       <img src="Pets.png" alt="My 3 pet cats" style="width: 300px; height: 300px" />
