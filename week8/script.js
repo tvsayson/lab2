@@ -48,8 +48,8 @@ function myFunction(p1, p2) {
   return p1 * p2;
 }
 
-let result = myFunction(14, 2);
-document.getElementById("birth").innerHTML = "<strong> Birthday: </strong> August " + result + " 2003";
+let result = myFunction(2, 14);
+document.getElementById("birth").innerHTML = "<strong> Birthday: </strong> August " + String(result) + " 2003";
 
 /* Lesson 22.10 */
 var x = document.getElementById("clicks");

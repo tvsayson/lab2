@@ -23,6 +23,7 @@
       <p id="age"></p>
 
       <p id="birth"></p>
+
       <p>
         <strong>Hobbies / Interests / libangan:</strong><br />My hobbies are playing sports like
         basketball, badminton, volleyball, and swimming. I have a lot of interests in history
@@ -42,7 +43,10 @@
     </div>
 
     <div>
-      <h2>School Information<span style="font-size: 40px">&#127979;</span></h2>
+      <?php
+
+      echo "<h2>School Information<span style='font-size: 40px'>&#127979;</span></h2>";
+      ?> 
       <p>
         <strong><u>Senior High School Graduated From:</u></strong> <br />
         - I graduated senior high school here in Asia Pacific College. It is located in Humabon,
