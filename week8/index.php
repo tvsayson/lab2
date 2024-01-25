@@ -87,10 +87,18 @@
         <?php
         $txt = "Sebastian, Sophie, and Sue";
         echo "Their names are  $txt!";
+
         function myMessage() {
         echo " Sebastian is the eldest which is 11 years old";
           }
           myMessage();
+
+          $x = 4;
+  
+        function myfunction() {
+        echo ", Sophie and Sue is " . $GLOBALS['x'] . " years old";
+          }
+          myfunction();
         ?>
         
       </p>
