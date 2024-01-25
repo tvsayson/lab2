@@ -12,6 +12,7 @@
     <h1>Who am I?<span style="font-size: 40px">&#128556;</span></h1>
     <audio controls autoplay hidden src="test.mp3"></audio>
     <img id="Me" src="Me.jpg" alt="TJ's picture" style="width: 300px; height: 300px" />
+
     <h2>Personal Information<span style="font-size: 40px">&#129313;</span></h2>
 
     <div>
@@ -78,8 +79,13 @@
         <strong><u>Pictures about yourself and your interests:</u></strong> <br />
         - This is my Facebook page where I started streaming. I created this during the pandemic and
         after getting a PC upgrade. Additionally, I am a cat person and here are the pictures of 3
-        of my cats
+        of my cats.
+        <?php
+        $txt = "Sebastian, Sophie, and Sue";
+        echo "Their names are  $txt!";
+        ?>
       </p>
+
       <img src="Pets.png" alt="My 3 pet cats" style="width: 300px; height: 300px" />
       <img src="FB page.jpg" alt="My Facebook page" style="width: 300px; height: 300px" />
       <img src="allmight.gif" alt="My Favorite anime" style="width: 400px; height: 300px" />
